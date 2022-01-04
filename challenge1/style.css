@@ -1,3 +1,12 @@
 body {
-    background-color: blue;
+    background-color: rgb(27,12,44);
+    text-align: center;
+    color: rgb(240, 232, 232);
+}
+.img-movie {
+    width: 300px;
+    border-radius: 10%;
+}
+h1 {
+    font-family: 'The Nautigal', cursive;
 }
