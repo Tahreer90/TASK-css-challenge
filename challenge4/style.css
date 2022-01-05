@@ -1,15 +1,48 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(34,4,38);
+
 }
 .container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
 }
 .movie-card {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  z-index: 10;
+  
 }
 .movie-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 5%;
+  position:absolute;
+ 
+
+  
 }
 .movie-details-container {
+  
 }
 .descriptions {
+  color: antiquewhite;
+  position:absolute;
+  left: 10px;
+  bottom: 10%;
+  text-align: left;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  
 }
 
 /*A gift from us!*/
@@ -17,15 +50,23 @@ body {
   /*
     This gradient was made by this website https://cssgradient.io/
 */
+
   position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
   height: 100%;
   width: 100%;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.75) 0%,
-    rgba(0, 0, 0, 0) 100%
-  );
+    rgba(0, 0, 0, 0) 100%);
+    z-index: 2;
+    
 }
 .movie-title {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
 }
